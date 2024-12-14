@@ -10,12 +10,62 @@ body {
 
 .Sanquin_logo {
     font-family: "Aileron Bold";
+    padding-top: 16px;
+}
+
+h2{
+    font-size: 2.5em;
 }
 
 img {
     max-width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-h2 {
-    font-weight: lighter;
+p{
+    padding-top: 16px;
+    font-size: 1.1em;
+}
+
+.hoofd_tekst{
+    color: #D32D1D;
+}
+
+
+.aanmeld_knop{
+    background-color: #D32D1D; 
+    border: none;
+    font-family: "Aileron Regular";
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+.informatie_knoppen{
+    display: flex;
+    justify-content: center;
+}
+
+.praktische_knop{
+    padding-top: 16px;
+    padding-right: 8px;
+}
+
+.werking_knop{
+    padding-top: 16px;
+    padding-left: 8px;
+}
+
+.informatie_knop{
+
+    padding: 15px;
+    background-color: #C0C0C0;
+    border: none;
+    font-family: "Aileron Regular";
+    font-size: 14px;
 }
