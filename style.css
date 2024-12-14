@@ -45,6 +45,7 @@ h2{
     background-color: #C0C0C0;
 }
 
+
 .nav_text a{
     color: black;
     font-family: "Aileron Bold";
@@ -136,6 +137,10 @@ hr.solid {
     font-size: 1.3em;
   }
 
+  #doneer_en_deel:focus{
+    background-color: #941509;
+  }
+
   #doneer{
     display: flex;
     justify-content: center;
@@ -187,6 +192,10 @@ hr.solid {
     width: 100%;
 }
 
+.aanmeld_knop:focus{
+    background-color: #941509;
+}
+
 .informatie_knoppen{
     display: flex;
     justify-content: space-between;
@@ -202,6 +211,10 @@ hr.solid {
     padding-left: 8px;
 }
 
+.werking_knop:focus{
+    background-color: #8D8A8A;
+}
+
 .informatie_knop{
 
     padding: 15px;
@@ -209,5 +222,9 @@ hr.solid {
     border: none;
     font-family: "Aileron Regular";
     font-size: 14px;
+}
+
+.informatie_knop:focus{
+    background-color: #8D8A8A;
 }
 
