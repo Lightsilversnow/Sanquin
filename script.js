@@ -1,9 +1,14 @@
+var number = 1;
+
 function showNav(){
     var hidden = document.getElementById("other_pages");
-    if (hidden.style.display === "block"){
-        hidden.style.display = "none";
+    if (number == 0){
+        hidden.classList.replace('show', 'hide');
+        number = 1;
+
     } else {
-        hidden.style.display = "block";
+        hidden.classList.replace('hide', 'show');
+        number = 0;
     }
 }
 
