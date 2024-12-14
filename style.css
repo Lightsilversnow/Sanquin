@@ -37,27 +37,21 @@ h2{
 
 #other_pages{
     display: none;
-    background-color: #D32D1D;
+    background-color: #C0C0C0;
 }
 
 .nav_text a{
-    color: white;
+    color: black;
     font-family: "Aileron Bold";
     display: flex;
     justify-content: center;
     padding: 16px;
     text-decoration: none;
-        border-radius: 5px;
-
 }
 
 .nav_text {
-    border: 1px solid white;
-
+    border-top: 2px solid white;
 }
-
-
-
 
 #header_praktisch{
     color: white;
