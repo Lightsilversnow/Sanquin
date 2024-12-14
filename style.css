@@ -97,7 +97,6 @@ hr.solid {
   .collapsible {
     background-color: transparent;
     color: black;
-    cursor: pointer;
     padding: 16px;
     width: 100%;
     border: none;
@@ -110,11 +109,9 @@ hr.solid {
   .collapsible:after {
     content: '\002B';
     color: black;
-    font-weight: bold;
-    float: left;
-    margin-right: 5px;
+    float: inline-start;
+    margin-right: 10px;
   }
-
   
   .active:after {
     content: "\2212";
@@ -149,11 +146,6 @@ hr.solid {
     background-color:#D32D1D;
     padding: 10px;
   }
-
-
-
-
-
 
 
 /*homepage*/
