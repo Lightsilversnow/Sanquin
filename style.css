@@ -59,6 +59,28 @@ h2{
 }
 
 
+/*praktische informatie pagina*/
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+#searchbar{
+    background-color: #FAE8E6;
+    border: none;
+    padding: 16px
+}
+
+#search_button{
+    display: flex;
+    border: none;
+    padding: 16px;
+    align-items: center;
+    background-color: #D32D1D;
+    color: white;
+}
+
 /*homepage*/
 
 .heart_image{
