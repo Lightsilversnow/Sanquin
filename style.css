@@ -8,9 +8,8 @@ body {
     font-family: "Aileron Light";
 }
 
-.Sanquin_logo {
-    font-family: "Aileron Bold";
-    padding-top: 16px;
+p{
+    font-size: 1.1em;
 }
 
 h2{
@@ -20,21 +19,77 @@ h2{
     font-family: "Aileron Bold";
 }
 
-img {
-    max-width: 100%;
+/*navigation bar*/
+.topnav{
+    background-color: #D32D1D;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.hamburger {
+    height: 24px;
+    padding: 16px;
+}
+
+#other_pages{
+    display: none;
+    background-color: #D32D1D;
+}
+
+.nav_text a{
+    color: white;
+    font-family: "Aileron Bold";
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    text-decoration: none;
+        border-radius: 5px;
+
+}
+
+.nav_text {
+    border: 1px solid white;
+
+}
+
+
+
+
+#header_praktisch{
+    color: white;
+    font-family: "Aileron Bold";
+}
+
+
+/*homepage*/
+
+.heart_image{
+    max-width: 90%;
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-p{
+.Sanquin_logo {
+    font-family: "Aileron Bold";
     padding-top: 16px;
-    font-size: 1.1em;
+}
+
+.heart_div{
+    display: flex;
+    justify-content: center;
 }
 
 .hoofd_tekst{
     color: #D32D1D;
 }
 
+.informatie_tekst {
+    padding-top: 16px;
+}
 
 .aanmeld_knop{
     background-color: #D32D1D; 
@@ -72,3 +127,4 @@ p{
     font-family: "Aileron Regular";
     font-size: 14px;
 }
+

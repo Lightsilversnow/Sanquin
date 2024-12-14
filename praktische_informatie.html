@@ -9,8 +9,55 @@
 </head>
 <body>
     
-    <!--Navigation bar-->
-    <!--<script src="/nav.js"></script>-->
+      <div class="topnav">
+        <a href="index.html" style="width: 30px; padding: 16px ;"><img src="/images/heart_small_white.png" width=100%></a>
+        <p id="header_praktisch">Praktische informatie</p>
+
+        <div class="hamburger"><img src="/images/menu.svg" onclick="showNav()"></div>
+      </div>
+
+      <div id="other_pages">
+        <div class="nav_text"><a href="/index.html">Hoe werkt doneren?</a></div>
+        <div class="nav_text"><a href="/index.html">Aanmelden als donor</a></div>
+    </div>
+
+
+
+
+
+
+      <script>
+        function showNav(){
+            var hidden = document.getElementById("other_pages");
+            if (hidden.style.display === "block"){
+                hidden.style.display = "none";
+            } else {
+                hidden.style.display = "block";
+            }
+        }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="Sanquin_logo">
     <img src="/images/sanquin_full_logo.png" alt="Sanquin logo" width=60%>
