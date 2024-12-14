@@ -15,6 +15,9 @@ body {
 
 h2{
     font-size: 2.5em;
+    margin: 0;
+    padding-bottom: 16px;
+    font-family: "Aileron Bold";
 }
 
 img {
@@ -48,7 +51,7 @@ p{
 
 .informatie_knoppen{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .praktische_knop{
