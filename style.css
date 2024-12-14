@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Aileron Bold;
+    src: url(/font/Aileron/Aileron-Bold.otf);
+    font-weight: bold;
+}
+
+body {
+    font-family: "Aileron Light";
+}
+
+.Sanquin_logo {
+    font-family: "Aileron Bold";
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-weight: lighter;
+}
