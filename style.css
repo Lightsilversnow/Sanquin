@@ -69,7 +69,8 @@ h2{
 #searchbar{
     background-color: #FAE8E6;
     border: none;
-    padding: 16px
+    padding: 16px;
+    font-size: 1.1em;
 }
 
 #search_button{
@@ -79,7 +80,75 @@ h2{
     align-items: center;
     background-color: #D32D1D;
     color: white;
+    font-size: 1.1em;
 }
+
+hr.solid {
+    border-top: 1px solid #D32D1D;
+    margin: 5px;
+  }
+
+  .collapsible {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.15em;
+    font-family: "Aileron Light";
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+  }
+
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .info_tekst{
+    font-size: 1em;
+  }
+
+  #doneer_en_deel{
+    background-color:#D32D1D;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 1.3em;
+  }
+
+  #doneer{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .bottom_bar{
+    background-color:#D32D1D;
+    padding: 10px;
+  }
+
+
+
+
+
+
 
 /*homepage*/
 
