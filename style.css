@@ -23,6 +23,12 @@ h2{
     padding: 16px;
 }
 
+#header_story{
+    color: white;
+    font-family: "Aileron Bold";
+    padding-top: 16px;
+}
+
 /*navigation bar*/
 .topnav{
     background-color: #D32D1D;
