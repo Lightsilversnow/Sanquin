@@ -10,6 +10,7 @@ body {
 
 p{
     font-size: 1.2em;
+    padding: 32px;
 }
 
 h2{
@@ -170,6 +171,7 @@ hr.solid {
   
   .info_tekst{
     font-size: 1em;
+    padding: 0;
   }
 
   #doneer_en_deel{
