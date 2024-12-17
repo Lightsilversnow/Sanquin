@@ -9,7 +9,7 @@ body {
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 h2{
@@ -210,16 +210,20 @@ hr.solid {
 }
 
 .heart_div{
-    display: flex;
-    justify-content: center;
+    padding: 75px;
+
 }
 
 .hoofd_tekst{
     color: #D32D1D;
+    display: flex;
+    justify-content: center;
 }
 
 .informatie_tekst {
     padding-top: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .aanmeld_knop{
@@ -233,6 +237,7 @@ hr.solid {
     display: inline-block;
     font-size: 16px;
     width: 100%;
+    margin-top: 16px;
 }
 
 .aanmeld_knop:focus{
