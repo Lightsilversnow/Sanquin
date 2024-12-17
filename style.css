@@ -237,7 +237,7 @@ hr.solid {
     display: inline-block;
     font-size: 16px;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 10%;
 }
 
 .aanmeld_knop:focus{
