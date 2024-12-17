@@ -19,6 +19,26 @@ h2{
     font-family: "Aileron Bold";
 }
 
+h3{
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*story pages*/
+#doneer_en_deel_reveal{
+    background-color:#D32D1D;
+    color: white;
+    border: none;
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+  #doneer_en_deel_reveal:focus{
+    background-color: #941509;
+}
+
+
 .padding_story{
     padding: 16px;
 }
