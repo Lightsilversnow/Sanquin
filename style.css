@@ -276,3 +276,11 @@ hr.solid {
     background-color: #8D8A8A;
 }
 
+.bottom_alignment {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+
+}
+
