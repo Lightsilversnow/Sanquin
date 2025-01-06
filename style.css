@@ -11,10 +11,19 @@ body {
 p{
     font-size: 1.2em;
     padding: 32px;
+    text-align: left;
+
+}
+
+h1{
+    font-size: 125px !important;
+    padding: 4px;
+    
+
 }
 
 h2{
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
     padding-bottom: 16px;
     font-family: "Aileron Bold";
@@ -24,6 +33,13 @@ h3{
     padding: 16px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#header_aanmeld{
+    color: white;
+    font-family: "Aileron Bold";
+    font-size: 16px;
+    padding-top: 16px;
 }
 
 /*story pages*/
@@ -104,13 +120,16 @@ h3{
     
 }
 
-#header_praktisch{
-    color: white;
-    font-family: "Aileron Bold";
-}
+
 
 
 /*praktische informatie pagina*/
+#header_praktisch{
+    color: white;
+    font-family: "Aileron Bold";
+    padding: 0;
+}
+
 .search{
     display: flex;
     justify-content: center;

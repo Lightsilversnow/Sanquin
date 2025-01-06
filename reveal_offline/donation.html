@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Aanmelden als donor</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="/style.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div id="sticky">
+			<div class="topnav">
+				<a href="/index.html" style="width: 30px; padding: 16px ;"><img src="/images/sanquin_logo_white.svg" width=100%></a>
+				<p id="header_aanmeld">Aanmelden als donor</p>
+	
+				<div class="hamburger"><img src="/images/menu.svg" onclick="showNav()"></div>
+			</div>
+	
+			<div id="other_pages" class="hide">
+				<div class="nav_text"><a href="/index.html">Home</a></div>
+				<div class="nav_text"><a href="/praktische_informatie.html">Praktische informatie</a></div>
+				<div class="nav_text"><a href="/reveal_offline/index.html">Donatie verhaal</a></div>
+			</div>
+		</div>  
+		
+		<div class="reveal">
+			<div class="slides">
+				
+				<section data-auto-animate>
+                    
+                    <h1 style="color: #D32D1D;">Dit kun je verwachten</h1>
+                    <p>
+                        Wat fijn dat je wilt doneren. Met jouw bloed of plasma redden we levens en ontwikkelen we medicijnen. Meld je aan via de link hierboven of lees hieronder hoe aanmelden in zijn werk gaat. 
+
+
+                    </p>
+
+					<h1 style="color: #D32D1D;">Zo werkt het</h1>
+						<p>
+                            Wil jij samen met bijna 400.000 andere donors levens redden? Word donor!
+
+						</p>
+
+                        <img src="/images/hands.png">
+
+				</section>
+
+				<section data-auto-animate>
+					<h1 style="color: #D32D1D;">Stap 1: Online aanmelden</h1>
+						<p>
+                            Start via de knop hieronder je aanmelding. Je doorloopt een medische vragenlijst en maakt  een afspraak bij jou in de buurt. Deze vragenlijst kost ongeveer 3 minuten.
+
+						</p>
+
+					<img src="/images/web.png">
+				</section>
+
+				<section data-auto-animate>
+					<h1 style="color: #D32D1D;">Stap 2: Medische check</h1>
+						<p>					
+                            Bij die eerste afspraak maak je kennis met Sanquin. Je Hb-waarde en bloeddruk wordt gecheckt. Ook wordt er bloed af genomen om te testen op infectieziekten en om je bloedgroep te bepalen. <u>Je doneert nog niet.</u>
+
+						</p>
+						<img src="/images/doctor.png">
+				</section>
+
+				<section data-auto-animate>
+					<h1 style="color: #D32D1D;">Stap 3: Je eerste afspraak</h1>
+
+						<p>
+                            Als uit de test blijkt dat je bloed kunt geven, mag de vlag uit. Je bent officieel donor! Zodra jouw bloedgroep nodig is, ontvang je een oproep voor je eerste donatie. 
+						</p>
+						<img src="/images/blood_bag.png" >
+
+				</section>
+
+
+				<section data-auto-animate>
+					<h1 style="color: #D32D1D;">Wil jij ook levens redden?</h1>
+					<p style="text-align: center;">
+						Vul de vragenlijst in en maak een afspraak bij jou in de buurt.
+					</p>
+					<div id="doneer"><a href="https://www.sanquin.nl/aanmelden-donor/stap-1"><button id="doneer_en_deel_reveal">Vragenlijst</button></a></div>
+					<img src="/images/sanquin_full_logo_red.svg" alt="Sanquin logo" style="width: 50%; padding: 16px;">
+
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="/script.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				embedded: true,
+				view: 'scroll',
+				scrollProgress: true,
+				scrollSnap:'proximity',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
