@@ -22,11 +22,6 @@ h1{
 
 }
 
-.slides_head{
-    text-align: left !important;
-    padding-left: 32px;
-}
-
 h2{
     font-size: 3em;
     margin: 0;
@@ -60,7 +55,6 @@ h3{
     background-color: #941509;
 }
 
-
 .padding_story{
     padding: 16px;
 }
@@ -69,6 +63,11 @@ h3{
     color: white;
     font-family: "Aileron Bold";
     padding-top: 16px;
+}
+
+.slides_head{
+    text-align: left !important;
+    padding-left: 32px;
 }
 
 /*navigation bar*/
@@ -106,9 +105,7 @@ h3{
     scale: 0;
     width: 0;}
 
-#other_pages{
-    background-color: #C0C0C0;
-}
+
 
 
 .nav_text a{
@@ -122,10 +119,12 @@ h3{
 
 .nav_text {
     border-top: 2px solid white;
-    
+    background-color: #c0c0c0;
 }
 
-
+.nav_text:active{
+    background-color: #6d6d6d;
+}
 
 
 /*praktische informatie pagina*/
@@ -224,20 +223,9 @@ hr.solid {
 
 /*homepage*/
 
-.heart_image{
-    max-width: 90%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
 .Sanquin_logo {
     font-family: "Aileron Bold";
     padding: 16px;
-}
-
-.heart_div{
-    padding: 75px;
-
 }
 
 .hoofd_tekst{
@@ -319,3 +307,9 @@ hr.solid {
     padding: 0;
 }
 
+
+
+/* Slide-specific vertical centering override */
+.reveal .slides section[data-vertical-align-top]{
+	top: 150px !important;
+}
