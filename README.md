@@ -7,6 +7,7 @@ Er zijn verschillende pagina's beschikbaar op de webapplicatie: een homepagina, 
 - De pagina met praktische informatie bevat belangrijke gegevens, gepresenteerd in uitklapbare tekstblokken voor een overzichtelijke weergave.
 - Het donatieverhaal vertelt het verhaal van een patiënt en laat zien welke impact bloeddonaties op haar leven hebben gehad.
 - Op de aanmeldpagina wordt stap voor stap uitgelegd hoe je donor kunt worden, de online vragenlijst, de medische check en het maken van de eerste afspraak.
+
 Zowel de aanmeldpagina als de donatieverhaalpagina maken gebruik van Reveal.js voor een interactieve en visueel aantrekkelijke presentatie.
 
 
