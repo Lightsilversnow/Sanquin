@@ -1,1 +1,2 @@
 # Sanquin
+De campagne website van Sanquin is gemaakt voor Generatie Z. Bij deze website wordt er op een overzichtelijke manier informatie weergegeven die de doelgroep mist of moeilijk kan vinden in de huidige website van Sanquin. Verder is een donatieverhaal op de website, zodat het ook duidelijk is wat effect van doneren is. De website is gemaakt voor mobiele apparaten, doordat het verbonden is met een narrowcasting systeem met QR code en social media posts. De website is te vinden op https://sanquinheld.netlify.app/. 
