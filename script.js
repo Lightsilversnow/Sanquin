@@ -1,3 +1,4 @@
+// Navigation bar
 var number = 1;
 
 function showNav(){
@@ -12,7 +13,7 @@ function showNav(){
     }
 }
 
-
+// Uitklapbare tekst
 var coll = document.getElementsByClassName("collapsible");
 var i;
 

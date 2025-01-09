@@ -44,8 +44,9 @@ h3{
     background-color:#D32D1D;
     color: white;
     border: none;
-    padding: 30px;
-    font-size: 1.2em;
+    padding: 32px;
+    font-size: 1.3em;
+    border-radius: 4px;
 }
 
   #doneer_en_deel_reveal:focus{
@@ -123,6 +124,7 @@ h3{
 .nav_text {
     border-top: 2px solid white;
     background-color: #c0c0c0;
+    border-radius: 4px;
 }
 
 .nav_text:active{
@@ -148,6 +150,8 @@ h3{
     border: none;
     padding: 16px;
     font-size: 1.1em;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 #search_button{
@@ -158,6 +162,8 @@ h3{
     background-color: #D32D1D;
     color: white;
     font-size: 1.1em;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 hr.solid {
@@ -206,6 +212,7 @@ hr.solid {
     border: none;
     padding: 16px;
     font-size: 1.3em;
+    border-radius: 4px;
   }
 
   #doneer_en_deel:focus{
@@ -255,6 +262,7 @@ hr.solid {
     font-size: 16px;
     width: 100%;
     margin-top: 5%;
+    border-radius: 4px;
 }
 
 .aanmeld_knop:focus{
@@ -272,17 +280,13 @@ hr.solid {
     width: 50%;
 }
 
-.werking_knop{
+.donatie_verhaal_knop{
     padding-top: 16px;
     padding-left: 8px;
     width: 50%;
 }
 
-.werking_knop:focus{
-    background-color: #8D8A8A;
-}
-
-.informatie_knop{
+.homepagina_knop{
 
     padding: 15px;
     background-color: #efefef;
@@ -292,9 +296,11 @@ hr.solid {
     right: 16px;
     width: 100%;
     height: 100%;
+    border-radius: 4px;
+
 }
 
-.informatie_knop:focus{
+.homepagina_knop:focus{
     background-color: #8D8A8A;
 }
 
@@ -304,10 +310,6 @@ hr.solid {
     right: 16px;
     left: 16px;
 
-}
-
-.eerste_tekst{
-    padding: 0;
 }
 
 
