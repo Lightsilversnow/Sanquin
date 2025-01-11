@@ -242,6 +242,8 @@ hr.solid {
     color: #D32D1D;
     display: flex;
     justify-content: center;
+    /*z-index: 11;
+    position: relative;*/
 }
 
 .informatie_tekst {
@@ -325,7 +327,7 @@ hr.solid {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    animation: fadeOut 5s;
+    animation: fadeOut 6s;
     animation-fill-mode: forwards;
 
 }
