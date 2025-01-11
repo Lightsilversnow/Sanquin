@@ -28,3 +28,9 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+// Verspot eerste afbeelding op homepagina
+const text = document.getElementById("Poster_afbeelding");
+window.setTimeout( function() {
+  text.classList.add('hidden');
+}, 5000)
