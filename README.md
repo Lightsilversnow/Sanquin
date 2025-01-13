@@ -17,3 +17,5 @@ Zowel de aanmeldpagina als de donatieverhaalpagina maken gebruik van [Reveal.js]
 De website is gemaakt voor mobiele apparaten en is gekoppeld aan een narrowcasting-systeem met QR-codes en sociale media posts. 
 
 De website is te vinden op https://sanquinheld.netlify.app/. 
+
+Bekijk ook de [wiki](https://github.com/Lightsilversnow/Sanquin/wiki) voor meer informatie over het hele project.
