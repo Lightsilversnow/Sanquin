@@ -6,6 +6,7 @@
 
 body {
     font-family: "Aileron Light";
+    margin: 0;
 }
 
 p{
@@ -13,6 +14,10 @@ p{
     padding: 32px;
     text-align: left;
     font-family: "Aileron Light";
+}
+#test{
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 h1{
